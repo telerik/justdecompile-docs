@@ -1,0 +1,64 @@
+# The public documentation URL, used for sitemap.xml
+url: "https://docs.telerik.com/justdecompile"
+
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock]
+navigation:
+## List your directory names and order here, like this:
+    Getting Started:
+        title: Getting Started
+        position: 0
+    Plugin Basics:
+        title: Plugin Basics
+        position: 1
+    UI Regions:
+        title: UI Regions
+        position: 2
+    Events:
+        title: Events
+        position: 3
+    Services:
+        title: Services
+        position: 4
+    Copyright:
+        title: Extend Fiddler
+        position: 5
+    Copyright:
+        title: Copyright
+        position: 6
+
+## The application virtual path
+baseurl: /justdecompile
+
+## The product name
+productName: "JustDecompile"
+
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "page"
+        category: "default"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# The google services configuration
+google_tag_manager: GTM-6X92
+google_custom_search: '001595215763381649090:fpe1norq_ow'
+
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
+
