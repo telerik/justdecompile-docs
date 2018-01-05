@@ -8,10 +8,10 @@ navigation:
     Getting Started:
         title: Getting Started
         position: 0
-    Plugin Basics:
+    Plugin-Basics:
         title: Plugin Basics
         position: 1
-    UI Regions:
+    UI-Regions:
         title: UI Regions
         position: 2
     Events:
@@ -21,11 +21,8 @@ navigation:
         title: Services
         position: 4
     Copyright:
-        title: Extend Fiddler
-        position: 5
-    Copyright:
         title: Copyright
-        position: 6
+        position: 5
 
 ## The application virtual path
 baseurl: /justdecompile
