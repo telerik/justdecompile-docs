@@ -1,25 +1,21 @@
 ---
 title: Assembly Manager Service
-page_title: Assembly Manager Service | UI for ASP.NET AJAX Documentation
-description: Assembly Manager Service
-slug: telerikjustdecompilehelp/services/assembly-manager-service
-tags: assembly,manager,service
+page_title: Assembly Manager Service | JustDecompile Documentation
+description: Documentation page about Assembly Manager Service.
+previous_url: /serivces-assembly-manager-service.html
+slug: assembly-manager-service
 published: True
-position: 0
+position: 1
 ---
 
 # Assembly Manager Service
 
 
 
-## 
-
 The assembly manager service provides means to manage the assemblies loaded in JustDecompile.
-        
 
 The service exposes the following methods:
-          
 
-* M:JustDecompile.API.Core.Services.IAssemblyManagerService.LoadAssembly(System.String)
+*   [LoadAssembly](/api/m_justdecompile_api_core_services_iassemblymanagerservice_loadassembly)
 
-* M:JustDecompile.API.Core.Services.IAssemblyManagerService.LoadAssemblies(System.String[])
+*   [LoadAssemblies](/api/m_justdecompile_api_core_services_iassemblymanagerservice_loadassemblies)

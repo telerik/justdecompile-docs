@@ -1,53 +1,36 @@
 ---
 title: Plugins Tools Menu
-page_title: Plugins Tools Menu | UI for ASP.NET AJAX Documentation
-description: Plugins Tools Menu
-slug: telerikjustdecompilehelp/ui-regions/plugins-tools-menu
-tags: plugins,tools,menu
+page_title: Plugins Tools Menu | JustDecompile Documentation
+description: Documentation page about Plugins Tools Menu.
+previous_url: /ui-regions-plugins-tools-menu.html
+slug: plugins-tools-menu
 published: True
-position: 1
+position: 2
 ---
 
 # Plugins Tools Menu
 
 
 
-__The UI elements placed in this region will pop up in the top level toolbar menu area.__
+ **The UI elements placed in this region will pop up in the top level toolbar menu area.** 
 
-The menu items residing in this region should implement the T:JustDecompile.API.Core.IMenuItem   interface.
-    ![Toolbar](images/images/Toolbar.png)__Example__
+The menu items residing in this region should implement the [IMenuItem](t_justdecompile_api_core_imenuitem) interface.
 
-__Code implementaion:__
+![Toolbar](/media/Toolbar.png)
 
-	
-          [ModuleExport(typeof(PluginModule))]
-          public class PluginModule : IModule, IPartImportsSatisfiedNotification
-          {
-              public void OnImportsSatisfied()
-              {
-                  this.regionManager.AddToRegion("ToolMenuRegion", ToolMenuItem);
-              }
-          }
-        
+## Example
 
+**Code implementaion:**
 
+<div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve">[ModuleExport(<span class="highlight-keyword">typeof</span>(PluginModule))]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> PluginModule : IModule, IPartImportsSatisfiedNotification
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> OnImportsSatisfied()
+    {
+        <span class="highlight-keyword">this</span>.regionManager.AddToRegion(<span class="highlight-literal">"ToolMenuRegion"</span>, ToolMenuItem);
+    }
+}</pre></td></tr></table></span></div>
 
-	
-          <ModuleExport(GetType(PluginModule))> _
-          Public Class PluginModule
-            Implements IModule
-            Implements IPartImportsSatisfiedNotification
-
-              Public Sub OnImportsSatisfied()
-                  Me.regionManager.AddToRegion("ToolMenuRegion", ToolMenuItem)
-              End Sub
-
-          End Class
-        
-
-
-
->tip  *The plugin view model should implement[INotifyPropertyChanged](http://msdn.microsoft.com/en-us/library/system.componentmodel.inotifypropertychanged.aspx)interface,
-              when it needs to provide dynamic property notification to the UI region where it's injected in.* 
->
-
+Tip |
+--- |
+| The plugin view model should implement [INotifyPropertyChanged](https://msdn.microsoft.com/en-us/library/system.componentmodel.inotifypropertychanged.aspx) interface, when it needs to provide dynamic property notification to the UI region where it's injected in.

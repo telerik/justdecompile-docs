@@ -1,44 +1,28 @@
 ---
 title: Codeviewer Plugins Area
-page_title: Codeviewer Plugins Area | UI for ASP.NET AJAX Documentation
-description: Codeviewer Plugins Area
-slug: telerikjustdecompilehelp/ui-regions/codeviewer-plugins-area
-tags: codeviewer,plugins,area
+page_title: Codeviewer Plugins Area | JustDecompile Documentation
+description: Documentation page about Codeviewer Plugins Area.
+previous_url: /ui-regions-codeviewer-plugins-area.html
+slug: codeviewer-plugins-area
 published: True
-position: 2
+position: 3
 ---
 
 # Codeviewer Plugins Area
 
 
 
-__The UI elements placed in this region will pop up under the main code viewer area.__![Code Viewer Plugin Area](images/images/CodeViewerPluginArea.png)
+**The UI elements placed in this region will pop up under the main code viewer area.**
 
-__Example__
+![CodeViewerPluginArea](/media/CodeViewerPluginArea.png)
 
-	
-              [ModuleExport(typeof(PluginModule))]
-              public class PluginModule : IModule, IPartImportsSatisfiedNotification
-              {
-                  public void OnImportsSatisfied()
-                  {
-                      this.regionManager.AddToRegion("PluginRegion", PluginRegionView);
-                  }
-              }
-         
-
-
-
-	
-              <ModuleExport(GetType(PluginModule))> _
-              Public Class PluginModule
-                  Implements IModule
-                  Implements IPartImportsSatisfiedNotification
-
-                  Public Sub OnImportsSatisfied()
-                      Me.regionManager.AddToRegion("PluginRegion", PluginRegionView)
-                  End Sub
-              End Class
-            
-
+## Example
+<div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve">[ModuleExport(<span class="highlight-keyword">typeof</span>(PluginModule))]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> PluginModule : IModule, IPartImportsSatisfiedNotification
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> OnImportsSatisfied()
+    {
+        <span class="highlight-keyword">this</span>.regionManager.AddToRegion(<span class="highlight-literal">"PluginRegion"</span>, PluginRegionView);
+    }
+}</pre></td></tr></table></span></div>
 

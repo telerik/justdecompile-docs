@@ -1,23 +1,26 @@
 ---
 title: TabService
-page_title: TabService | UI for ASP.NET AJAX Documentation
-description: TabService
-slug: telerikjustdecompilehelp/services/tabservice
-tags: tabservice
+page_title: TabService | JustDecompile Documentation
+description: Documentation page about TabService.
+previous_url: /services-tabservice.html
+slug: tabservice
 published: True
-position: 2
+position: 3
 ---
 
 # TabService
 
 
 
-## 
-
-The TreeView navigator service provides means to navigate to specific elements of the assembly list TreeView.
-				
+The TabService provides means to manage JustDecompile tabs.
 
 The service exposes the following methods:
-          
 
-* M:JustDecompile.API.Core.Services.ITreeViewNavigatorService.NavigateToCodePath(JustDecompile.API.Core.IMemberDefinition)
+*   [OpenInNewTab](/api/m_justdecompile_api_core_services_itabservice_openinnewtab)
+
+*   [CloseTabItem](/api/m_justdecompile_api_core_services_itabservice_closetabitem)
+
+*   [SelectTabItem](/api/m_justdecompile_api_core_services_itabservice_selecttabitem)
+
+*   [GetTabItems](/api/m_justdecompile_api_core_services_itabservice_gettabitems)
+

@@ -1,34 +1,35 @@
 # The public documentation URL, used for sitemap.xml
-url: "https://docs.telerik.com/justdecompile"
+url: "https://docs.telerik.com/devtools/justdecompile"
 
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock]
+exclude: [readme.md, Gemfile, Gemfile.lock,api_sort.rb]
 navigation:
 ## List your directory names and order here, like this:
-    Getting Started:
-        title: Getting Started
-        position: 0
-    Plugin-Basics:
+
+    plugin-basics:
         title: Plugin Basics
         position: 1
-    UI-Regions:
+
+    ui-regions:
         title: UI Regions
         position: 2
-    Events:
+
+    events:
         title: Events
         position: 3
-    Services:
+
+    services:
         title: Services
         position: 4
-    Copyright:
-        title: Copyright
+      
+    "knowledge-base":
+        title: "Knowledge Base"
+        isNew: true
         position: 5
 
 ## The application virtual path
-baseurl: /justdecompile
+baseurl: /devtools/justdecompile
 
-## The product name
-productName: "JustDecompile"
 
 ## Assign layout and category per different paths
 defaults:
@@ -38,24 +39,33 @@ defaults:
     values:
         layout: "page"
         category: "default"
+        product: "justdecompile"
+        editable: false
+-
+    scope:
+        path: "knowledge-base"
+    values:
+        layout: "kb-page"
+        
+## The Kendo UI version used
+cdnVersion: "2017.3.1026"
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
+ff-sheet-id: 9dbd70b3-b986-4bd1-af83-2aae0115d2ff
+
 # The google services configuration
 google_tag_manager: GTM-6X92
-google_custom_search: '001595215763381649090:fpe1norq_ow'
+google_custom_search: '001595215763381649090:ptty4k2yaka'
+google_custom_kb_search: '001595215763381649090:nu6xgdkotlc'
 
 # Assets pipeline configuration
 assets:
     cachebust: soft
     js_compressor: uglifier
+    gzip: false
 
 ## Do not edit below this line
 safe: false
 markdown: MarkdownProcessor
-kramdown:
-    toc_levels: 2..3
-    smart_quotes: ["quot", "quot", "quot", "quot"]
-    input: GFM
-
