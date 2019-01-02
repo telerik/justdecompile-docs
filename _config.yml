@@ -39,7 +39,7 @@ defaults:
     scope:
         path: ""
     values:
-        layout: "documetation"
+        layout: "documentation"
         category: "default"
         product: "justdecompile"
 -
