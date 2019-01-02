@@ -52,7 +52,6 @@
     </div>
   </div>
 </aside>
-
 <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
       <div class="row">
@@ -122,6 +121,10 @@
           </li>
           
           
+          <li>
+            <label class="custom-checkbox unselectable"><input type="checkbox"  data-bind="checked: api" /><span class="k-icon k-i-check"></span>Search in API Reference</label>
+          </li>
+          
         </ul>
       </div>
   </div>
@@ -129,7 +132,7 @@
 
 <script>
     var gcsInstance = '001595215763381649090:ptty4k2yaka';
-    var gcsKey = '001595215763381649090:nu6xgdkotlc';
+    var gcsKey = 'AIzaSyCCJ8KxA6_2GV3IngVPL8VRGr2GGOKorc4';
     isKbPage =  false ;
     siteHasKbPortal = 'true';
     hasApiReference =  true ;
