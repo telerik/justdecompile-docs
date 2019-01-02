@@ -57,8 +57,8 @@ cdnVersion: "2017.3.1026"
 ff-sheet-id: 9dbd70b3-b986-4bd1-af83-2aae0115d2ff
 product: "Telerik JustDecompile"
 platform: "justdecompile"
-has_api_reference: false
 has_kb_portal: true
+api_reference_url: "api/"
 
 edit_repo_url: https://github.com/telerik/justdecompile-docs/edit/master
 download: http://www.telerik.com/download-trial-file/v2/justdecompile
