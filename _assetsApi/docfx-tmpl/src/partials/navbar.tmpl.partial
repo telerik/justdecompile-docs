@@ -21,6 +21,9 @@
           <li>
             <label class="custom-checkbox unselectable"><input type="checkbox" data-bind="checked: documentation"  /><span class="k-icon k-i-check"></span>Search in Documentation</label>
           </li>
+          <li>	
+            <label class="custom-checkbox unselectable"><input type="checkbox" data-bind="checked: kb" /><span class="k-icon k-i-check"></span>Search in Knowledge Base</label>	
+          </li>
           <li>
             <label class="custom-checkbox unselectable"><input type="checkbox"  data-bind="checked: api" /><span class="k-icon k-i-check"></span>Search in API Reference</label>
           </li>
