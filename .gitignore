@@ -1,5 +1,4 @@
 
-_site
 .dockerignore
 .editorconfig
 .jekyll-metadata
@@ -18,6 +17,7 @@ _site
 Dockerfile
 Gemfile
 Gemfile.lock
+_site
 bs-config.js
 build-docs.sh
 copy_content.sh

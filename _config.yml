@@ -48,9 +48,6 @@ defaults:
     values:
         res_type: "kb"
         
-## The Kendo UI version used
-cdnVersion: "2017.3.1026"
-
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
