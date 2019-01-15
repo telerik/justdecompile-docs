@@ -1592,7 +1592,7 @@ body .toc {
 
 .sidefilter {
   position: fixed;
-  top: 56px;
+  top: 100px;
   width: 300px;
   background-color: #ffffff;
   padding: 15px;
