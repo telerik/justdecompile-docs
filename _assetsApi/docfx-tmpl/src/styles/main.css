@@ -316,6 +316,10 @@ article h4 {
     margin-left: -15px;
   }
 
+  #navbar {
+    display: none;
+  }
+
   nav.TK-Nav {
     position: fixed; }
 
@@ -1697,7 +1701,7 @@ body .toc {
 .side-nav {
   display: block;
   padding-bottom: 40px;
-  z-index: 1070;
+  z-index: 10;
   position: fixed;
   box-shadow: 6px 2px 8px -6px rgba(0, 0, 0, 0.2);
 }
@@ -1745,6 +1749,8 @@ body .toc {
   -webkit-transition: padding-top .1s;
   transition: padding-top .1s;
   padding-top: 20px;
+  margin-left: 0 !important;
+  padding-right: 30px;
   margin-bottom: 20px; }
   .scroll #navbar {
     background-color: #FFFFFF;
