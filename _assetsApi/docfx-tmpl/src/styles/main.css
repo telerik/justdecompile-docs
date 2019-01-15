@@ -1416,7 +1416,7 @@ button.close {
   padding-right: 0;
   position: fixed;
   width: 300px;
-  top: 99px;
+  top: 160px;
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1592,7 +1592,7 @@ body .toc {
 
 .sidefilter {
   position: fixed;
-  top: 39px;
+  top: 56px;
   width: 300px;
   background-color: #ffffff;
   padding: 15px;
