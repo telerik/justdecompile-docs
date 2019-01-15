@@ -75,7 +75,7 @@ a.all-components {
   margin-left: 15px;
   margin-right: 10px;
   background-color: #fff;
-  background-image: url("/devtools/justmock/assets/article-menu.svg");
+  background-image: url("/devtools/justdecompile/assets/article-menu.svg");
   background-repeat: no-repeat;
   background-position: left 11px top 50%; 
 }
@@ -85,7 +85,7 @@ span.all-components-expanded-icon {
   position: absolute;
   top: 10px;
   left: 80px;
-  background-image: url("/devtools/justmock/assets/group-expand-collapse.svg");
+  background-image: url("/devtools/justdecompile/assets/group-expand-collapse.svg");
   background-repeat: no-repeat; }
 
 a.all-components.button {
@@ -208,7 +208,7 @@ a.all-components::after {
   font-size: 14px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   outline: none;
-  background-image: url("/devtools/justmock/assets/search.svg");
+  background-image: url("/devtools/justdecompile/assets/search.svg");
   background-repeat: no-repeat;
   background-position: 10px 50%;
   background-size: 16px;
@@ -224,7 +224,7 @@ a.all-components::after {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   outline: none;
   color: #36393f;
-  background: url("/devtools/justmock/assets/search.svg") #fff no-repeat 10px 50%;
+  background: url("/devtools/justdecompile/assets/search.svg") #fff no-repeat 10px 50%;
   -webkit-transition: border-color .2s, box-shadow .2s;
   transition: border-color .2s, box-shadow .2s;
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.05); }
@@ -1474,7 +1474,7 @@ body .toc {
   height: 14px;
   position: absolute;
   content: " ";
-  background: url("/devtools/justmock/assets/article.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/article.svg") no-repeat 50% 50%;
 }
 
 .toc .nav>li>a {
@@ -1528,7 +1528,7 @@ body .toc {
 }
 
 .toc .nav>li.in.active>.expand-stub~a::before, .toc .nav>li.in>.expand-stub~a::before, .toc .nav>li.filtered>.expand-stub~a::before {
-  background: url("/devtools/justmock/assets/group-expand-collapse.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1540,7 +1540,7 @@ body .toc {
 }
 
 .toc .nav>li>.expand-stub~a::before, .toc .nav>li.active>.expand-stub~a::before {
-  background: url("/devtools/justmock/assets/group-expand-collapse.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1790,8 +1790,8 @@ body .toc {
   display: block;
 }
 
-#navbar .navbar-brand.brand-platform-justmock {
-  background: transparent url("/devtools/justmock/assets/logo-justmock.svg") no-repeat 0 50%;
+#navbar .navbar-brand.brand-platform-justdecompile {
+  background: transparent url("/devtools/justdecompile/assets/logo-justdecompile.svg") no-repeat 0 50%;
 }
 
 #navbar .navbar-brand::before {
@@ -1801,8 +1801,8 @@ body .toc {
   visibility: hidden;
 }
 
-#navbar .navbar-brand::before.brand-platform-justmock {
-  background-image: url("/devtools/justmock/assets/logo-scroll-justmock.svg");
+#navbar .navbar-brand::before.brand-platform-justdecompile {
+  background-image: url("/devtools/justdecompile/assets/logo-scroll-justdecompile.svg");
 }
 
 .scroll #navbar .navbar-brand {
@@ -1812,8 +1812,8 @@ body .toc {
   max-width: 40%;
 }
 
-.scroll #navbar .navbar-brand.brand-platform-justmock {
-  background: transparent url("/devtools/justmock/assets/logo-scroll-justmock.svg") no-repeat 0 8px;
+.scroll #navbar .navbar-brand.brand-platform-justdecompile {
+  background: transparent url("/devtools/justdecompile/assets/logo-scroll-justdecompile.svg") no-repeat 0 8px;
 }
 
 #navbar .navbar-brand .alt-text {
@@ -2152,7 +2152,7 @@ body .toc {
   border: 0;
   width: 32px;
   height: 32px;
-  background: url("/devtools/justmock/assets/close.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/close.svg") no-repeat 50% 50%;
 }
 
 .button-close span {
@@ -2888,8 +2888,8 @@ p.lead {
 
 @font-face {
   font-family: 'WebComponentsIcons';
-  src: url("/devtools/justmock/assets/WebComponentsIcons.eot");
-  src: url("/devtools/justmock/assets/WebComponentsIcons.eot"), url("/devtools/justmock/assets/WebComponentsIcons.woff"), url("/devtools/justmock/assets/WebComponentsIcons.ttf"), url("/devtools/justmock/assets/WebComponentsIcons.svg");
+  src: url("/devtools/justdecompile/assets/WebComponentsIcons.eot");
+  src: url("/devtools/justdecompile/assets/WebComponentsIcons.eot"), url("/devtools/justdecompile/assets/WebComponentsIcons.woff"), url("/devtools/justdecompile/assets/WebComponentsIcons.ttf"), url("/devtools/justdecompile/assets/WebComponentsIcons.svg");
   font-weight: normal;
   font-style: normal;
 }
