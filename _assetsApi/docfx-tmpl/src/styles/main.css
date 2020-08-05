@@ -1466,7 +1466,7 @@ body .toc {
 }
 
 .toc .nav>li>span~a {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .toc .nav>li>a::before {
@@ -1478,7 +1478,7 @@ body .toc {
 }
 
 .toc .nav>li>a {
-  color: #3D57D8;
+  color: #696b6e;
   display: block;
   margin: 0 0 0 -44px;
   padding-left: 70px;
@@ -1510,7 +1510,7 @@ body .toc {
   position: absolute;
   left: 52px;
 }
-/* 
+
 .toc .nav>li>.expand-stub~a::before {
   cursor: pointer;
   content: "";
@@ -1528,7 +1528,6 @@ body .toc {
 }
 
 .toc .nav>li.in.active>.expand-stub~a::before, .toc .nav>li.in>.expand-stub~a::before, .toc .nav>li.filtered>.expand-stub~a::before {
-  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1540,7 +1539,6 @@ body .toc {
 }
 
 .toc .nav>li>.expand-stub~a::before, .toc .nav>li.active>.expand-stub~a::before {
-  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1549,7 +1547,7 @@ body .toc {
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-} */
+}
 
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
   display: block;
