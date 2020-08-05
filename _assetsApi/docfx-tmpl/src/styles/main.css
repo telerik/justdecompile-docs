@@ -1455,6 +1455,10 @@ body .toc {
   top: 8px;
 }
 
+.toc .nav.level1>li {
+  border-bottom: 1px solid #DEDEDE;
+}
+
 .toc .nav>li>a.sidetoc-expand {
   position: absolute;
   top: 0;
@@ -1471,18 +1475,17 @@ body .toc {
   height: 14px;
   position: absolute;
   content: " ";
-  background: url("/devtools/silverlight/assets/article.svg") no-repeat 50% 50%;
 }
 
 .toc .nav>li>a {
-  color: #696b6e;
+  color: #3D57D8;
   display: block;
   margin: 0 0 0 -44px;
   padding-left: 70px;
   padding-top: 8px;
   padding-bottom: 8px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .toc .nav>li>a:hover {
@@ -1507,7 +1510,7 @@ body .toc {
   position: absolute;
   left: 52px;
 }
-
+/* 
 .toc .nav>li>.expand-stub~a::before {
   cursor: pointer;
   content: "";
@@ -1525,7 +1528,7 @@ body .toc {
 }
 
 .toc .nav>li.in.active>.expand-stub~a::before, .toc .nav>li.in>.expand-stub~a::before, .toc .nav>li.filtered>.expand-stub~a::before {
-  background: url("/devtools/silverlight/assets/group-expand-collapse.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1537,7 +1540,7 @@ body .toc {
 }
 
 .toc .nav>li>.expand-stub~a::before, .toc .nav>li.active>.expand-stub~a::before {
-  background: url("/devtools/silverlight/assets/group-expand-collapse.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/group-expand-collapse.svg") no-repeat 50% 50%;
   color: #979797;
   content: "";
   width: 36px;
@@ -1546,7 +1549,7 @@ body .toc {
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-}
+} */
 
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
   display: block;
@@ -2166,7 +2169,7 @@ body .toc {
   border: 0;
   width: 32px;
   height: 32px;
-  background: url("/devtools/silverlight/assets/close.svg") no-repeat 50% 50%;
+  background: url("/devtools/justdecompile/assets/close.svg") no-repeat 50% 50%;
 }
 
 .button-close span {
@@ -2897,8 +2900,8 @@ p.lead {
 
 @font-face {
   font-family: 'WebComponentsIcons';
-  src: url("/devtools/silverlight/assets/WebComponentsIcons.eot");
-  src: url("/devtools/silverlight/assets/WebComponentsIcons.eot"), url("/devtools/silverlight/assets/WebComponentsIcons.woff"), url("/devtools/silverlight/assets/WebComponentsIcons.ttf"), url("/devtools/silverlight/assets/WebComponentsIcons.svg");
+  src: url("/devtools/justdecompile/assets/WebComponentsIcons.eot");
+  src: url("/devtools/justdecompile/assets/WebComponentsIcons.eot"), url("/devtools/justdecompile/assets/WebComponentsIcons.woff"), url("/devtools/justdecompile/assets/WebComponentsIcons.ttf"), url("/devtools/justdecompile/assets/WebComponentsIcons.svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4379,7 +4382,7 @@ p.lead {
   content: "\e657";
 }
 
-.k-i-silverlight::before {
+.k-i-justdecompile::before {
   content: "\e658";
 }
 
