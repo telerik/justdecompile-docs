@@ -1,4 +1,12 @@
-﻿/* Feedback Styles */
+﻿a.all-components {
+  background-image: url("/devtools/justdecompile/assets/article-menu.svg");
+}
+
+span.all-components-expanded-icon {
+  background-image: url("/devtools/justdecompile/assets/group-expand-collapse.svg");
+}
+
+/* Feedback Styles */
 
 .feedback-row {
   background-image: url("/devtools/justdecompile/assets/feedback-bgr.svg");
@@ -22,12 +30,17 @@
 }
 
 /* Search */
+
 .global-search input {
   background-image: url("/devtools/justdecompile/assets/search.svg");
 }
 
 .local-search input {
   background: url("/devtools/justdecompile/assets/search.svg") #fff no-repeat 10px 50%;
+}
+
+#refine-search-popup li:hover {
+  background-color: #27A306;
 }
 
 /*Icon font*/
