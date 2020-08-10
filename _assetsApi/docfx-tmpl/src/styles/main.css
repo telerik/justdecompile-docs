@@ -1,5 +1,4 @@
-﻿
-/* Feedback Styles */
+﻿/* Feedback Styles */
 
 .feedback-row {
   background-image: url("/devtools/justdecompile/assets/feedback-bgr.svg");
@@ -22,6 +21,14 @@
   background: url("/devtools/justdecompile/assets/close.svg") no-repeat 50% 50%;
 }
 
+/* Search */
+.global-search input {
+  background-image: url("/devtools/justdecompile/assets/search.svg");
+}
+
+.local-search input {
+  background: url("/devtools/justdecompile/assets/search.svg") #fff no-repeat 10px 50%;
+}
 
 /*Icon font*/
 
@@ -32,7 +39,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 
 .WebComponentsIcons {
   list-style: none;
@@ -86,7 +92,6 @@
   text-decoration: none;
   display: inline-block;
 }
-
 
 .k-i-justdecompile::before {
   content: "\e658";
