@@ -36,5 +36,6 @@
    isKbPage =  false ;
    siteHasKbPortal = 'true';
    hasApiReference =  true ;
+   showSearchPopup = false;
 </script>
 <script type="text/javascript" src="/devtools/justdecompile/assets/search-results.js"></script>
